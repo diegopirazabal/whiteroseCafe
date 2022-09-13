@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+      display: grid;
+      grid-template-areas: 
+      "header header"
+      "sectionB sectionB"
+      "footer footer"
+      ;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: 100px auto 100px;
+  }
+  
+  header {
+      grid-area: header;
+      background-color: #212529;
+      display: flex;
+      justify-content: space-between;
+      padding: 30px;
+      align-items: center;
+  }
+  header .nombre h1 {
+    position: absolute;
+    left: 110px;
+    top: 15px;
+    color: white;
+    font-size: 60px;
+    font-family: "Raleway", serif !important;
+  }
+  footer {
+      grid-area: footer;
+      background-color: #212529;
+  }
+  
+  section#imagenesProcesos {
+      grid-area: sectionB;
+      display: grid;
+      grid-template-columns: repeat(4, 300px);
+      grid-template-rows: repeat(2, 300px);
+      justify-content: space-evenly;
+      align-content: center;
+      /* column-gap: 80px; */
+      row-gap: 80px;
+      background-color: #EBEBEB;
+  }
+
+  .navMenu {
+    background-color: #212529;
+    display: flex;
+    justify-content: start;
+    padding: 0px;
+    align-items: center;
+    height: 60px;
+  }
+
+  .imgProceso {
+    height: 300px;
+    width: 300px;
+    padding-left: 75px;
+  }
+
+  .descripcionProceso {
+   
+  }
+
+  .itemsNav {
+    text-decoration: none!important;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    height: 60px;
+  }
+
+  .itemsNav:hover {
+    opacity: 50%;
+  }
+
+  #logo {
+    height: 70px;
+    width: 70px;
+  }
+
+  #logo:hover {
+    opacity: 20%;
+  }
+
+ .nombre {
+    
+ }
