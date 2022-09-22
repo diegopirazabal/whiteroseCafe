@@ -1,0 +1,25 @@
+body {
+    position: fixed;
+}
+
+.col-sm-4 {
+    background-color: white !important;
+}
+#fraseGrande {
+    text-align: center;
+    font-size: 4.7vw !important;
+    font-weight: 1000;
+    color: #332d2d;
+}
+
+@media screen and (max-width: 576px) {
+    #fraseGrande {
+        text-align: center;
+        font-size: 14vw !important;
+    } 
+}
+
+col-sm-8 {
+    display: flex;
+    align-items: center;
+}

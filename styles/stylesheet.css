@@ -40,15 +40,15 @@
   }
   
   section#carrousel {
-    display: flex;
       grid-area: sectionB;
+      display: grid;
+      grid-template-columns: repeat(3, 200px);
+      grid-template-rows: repeat(2, 200px);
       justify-content: space-around;
-      background-color: #EBEBEB;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      padding: 0px;
       align-content: center;
+      gap: 10px;
+      row-gap: 80px;
+      background-color: #EBEBEB;
   }
 
   
