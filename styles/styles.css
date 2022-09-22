@@ -12,3 +12,19 @@
     margin-top: 50px !important;
 }
 
+#foto1, #foto2, #foto3, #foto5, #foto6 {
+    animation-duration: 2s !important;
+    animation-name: aparecer !important;
+    animation-iteration-count: initial !important;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
